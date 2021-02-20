@@ -1,0 +1,23 @@
+{
+  "overview": [
+    { "id": "ret", "title": "returns", "value": "6.4%" },
+    { "id": "var", "title": "var", "value": "3.2%" },
+    { "id": "denom", "title": "denom", "value": "USD" }
+  ],
+  "currencies": [
+    { "id": 1, "currency": "USD", "proportion": 0.3 },
+    { "id": 2, "currency": "EUR", "proportion": 0.3 },
+    { "id": 3, "currency": "SGD", "proportion": 0.3 },
+    { "id": 4, "currency": "JPY", "proportion": 0.3 }
+  ],
+  "us_equities": [
+    { "id": 5, "name": "Mid Cap", "ticker": "VTI", "weight": 0.3 },
+    { "id": 6, "name": "Dividends", "ticker": "VTI", "weight": 0.6 },
+    { "id": 7, "name": "Growth", "ticker": "VTI", "weight": 0.1 }
+  ],
+  "international_equities": [
+    { "id": 8, "name": "China", "ticker": "VTI", "weight": 0.6 },
+    { "id": 9, "name": "Asia ex-Japan", "ticker": "VTI", "weight": 0.3 },
+    { "id": 10, "name": "EM", "ticker": "VTI", "weight": 0.1 }
+  ]
+}
