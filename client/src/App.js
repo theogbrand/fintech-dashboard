@@ -37,7 +37,7 @@ class App extends Component {
 
   // TODO: checks for status
   componentDidMount() {
-    this.callAPI();
+    this.callAPI(); 
   }
 
   render() {
