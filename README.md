@@ -1,3 +1,3 @@
 # fintech-open-banking
 
-Fullstack app with ReactJS
+Fullstack stock portfolio app with MongoDB, Express, React, Nodejs - (MERN) stack
