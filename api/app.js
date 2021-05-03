@@ -11,7 +11,6 @@ var bodyParser = require('body-parser');
 var url = 'mongodb://localhost/StocksDB';
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var testAPIRouter = require('./routes/testAPI');
 var stocksRouter = require('./routes/stocks');
 
@@ -37,7 +36,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Import Routes
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/testAPI', testAPIRouter);
 app.use('/stocks', stocksRouter);
 
