@@ -12,7 +12,7 @@
       { "id": 4, "currency": "JPY", "proportion": 0.8 }
     ],
     "us_equities": [
-      { "id": 5, "name": "Mid Cap", "ticker": "VWO", "weight": 0.99999 },
+      { "id": 5, "name": "Mid Cap", "ticker": "VWO", "weight": 0.2 },
       { "id": 6, "name": "Dividends", "ticker": "VTI", "weight": 0.6 },
       { "id": 7, "name": "Growth", "ticker": "VBK", "weight": 0.1 }
     ],
