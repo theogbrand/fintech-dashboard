@@ -10,9 +10,11 @@ import AssetTable from './components/AssetTable';
 
 import axios from 'axios';
 
+
 class App extends React.Component<any, any> {
-  constructor() {
-    super({},{});
+// export default function App(props: any) {
+  constructor(props: any) {
+    super(props);
     this.state = {
       overview: [],
       currencies: [],
@@ -38,7 +40,6 @@ class App extends React.Component<any, any> {
       });
   }
 
-  // TODO: checks for status
   componentDidMount() {
     this.callAPI(); 
   }
